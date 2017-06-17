@@ -1,0 +1,88 @@
+body{
+	text-align: center;
+	font-family: 'Advent Pro', sans-serif;
+	background-color: plum;
+}
+
+header{
+	font-size: 25px;
+}
+
+header:hover{
+	animation-name: fontStuffHead; 
+	animation-duration: 5s; 
+}
+
+@keyframes fontStuffHead{
+		0% {font-size: 25px;}
+		25% {font-size: 30px;}
+		50% {font-size: 35px;}
+		75% {font-size: 30px;}
+		100% {font-size: 25px;}
+	}
+
+p{
+	font-size: 18px;
+}
+
+img{
+	margin-top: 20px;
+}
+
+footer{
+	font-size: 18px;
+}
+
+footer:hover{
+	animation-name: fontStuffFoot; 
+	animation-duration: 5s; 
+}
+
+@keyframes fontStuffFoot{
+		0% {font-size: 18px;}
+		25% {font-size: 23px;}
+		50% {font-size: 28px;}
+		75% {font-size: 23px;}
+		100% {font-size: 18px;}
+	}
+
+#wrapper{
+	background-color: powderblue;
+}
+
+#writing{
+	padding-top: 25px;
+}
+
+#picWrapper{
+	display: flex;
+	flex-direction: row;
+}
+
+.pic{
+	height: 190px;
+	width: 800px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#one{
+	background-color: LightCoral;
+}
+
+#two{
+	background-color: LightSalmon;
+}
+
+#three{
+	background-color: LightGoldenRodYellow;
+}
+
+#four{
+	background-color: palegreen;
+}
+
+#quote{
+	font-size: 40px;
+	padding-bottom: 25px;
+}
